@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/music_tab_card"
+    android:layout_width="80dp"
+    android:layout_height="40dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/music_tab_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Love"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:id="@+id/music_tab_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

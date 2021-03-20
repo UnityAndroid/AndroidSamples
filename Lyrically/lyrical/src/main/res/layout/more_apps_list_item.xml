@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/app_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/app_background_1" />
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@id/img_icon"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/appname_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left|center"
+                android:maxLines="1"
+                android:text="Install"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/appname_text"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/install_button"
+                android:gravity="left|center"
+                android:maxLines="1"
+                android:text="Get it on Google Playstore"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/install_button"
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/appname_text"
+                android:layout_alignParentRight="true"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/google_play"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/google_play" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="Install Now"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

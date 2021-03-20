@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d21d40c7-710c-4095-bf8d-da9b3bb6e44c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1pmRT8PfVOvLHsBPMdrIc2N5H6v" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="D:/Modules/DemoTestApp/DemoApp" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d21d40c7-710c-4095-bf8d-da9b3bb6e44c" name="Default Changelist" comment="" />
+      <created>1615786283796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615786283796</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="202" key="FileChooserDialogImpl" timestamp="1615870024928">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="202" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1615870024928" />
+    <state x="451" y="286" key="com.intellij.ide.util.TipDialog" timestamp="1615869892390">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="451" y="286" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1615869892390" />
+  </component>
+</project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lyrically.photovideomaker.particl.ly.musicallybeat.ui.video.VideoActivity">
+
+    <include
+        layout="@layout/item_background" />
+
+
+    <include
+        layout="@layout/item_tool_bar"
+        android:id="@+id/tool_bar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/top_constraint"
+        app:layout_constraintTop_toBottomOf="@id/tool_bar"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/player_relative"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/videoSurfaceContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center">
+
+                <include
+                    layout="@layout/giraffe_player"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/ibPlayPauseVideo"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:padding="10dp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <!--<FrameLayout
+                android:id="@+id/videoSurfaceContainer"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <SurfaceView
+                    android:id="@+id/videoSurface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </FrameLayout>-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/block_bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/top_constraint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/share_icon_wp"
+                android:layout_height="match_parent" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/share_icon_fb"
+                android:layout_height="match_parent" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/share_icon_insta"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/share_icon_more"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

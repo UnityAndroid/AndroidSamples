@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.14@aar">
+    <CLASSES>
+      <root url="file://E:/gradle-5.1.1-all/gradle-5.1.1/caches/transforms-2/files-2.1/6f30c33c659f6b26b9fef719136e280b/jetified-FFmpegMediaMetadataRetriever-1.0.14/AndroidManifest.xml" />
+      <root url="jar://E:/gradle-5.1.1-all/gradle-5.1.1/caches/transforms-2/files-2.1/6f30c33c659f6b26b9fef719136e280b/jetified-FFmpegMediaMetadataRetriever-1.0.14/jars/classes.jar!/" />
+      <root url="file://E:/gradle-5.1.1-all/gradle-5.1.1/caches/transforms-2/files-2.1/6f30c33c659f6b26b9fef719136e280b/jetified-FFmpegMediaMetadataRetriever-1.0.14/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/gradle-5.1.1-all/gradle-5.1.1/caches/modules-2/files-2.1/com.github.wseemann/FFmpegMediaMetadataRetriever/1.0.14/2d4ce6b7b3f8303af3e7fd0bf5387fb59bf00d48/FFmpegMediaMetadataRetriever-1.0.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

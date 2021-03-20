@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tcking:ijkplayer-armv5:0.8.8-full@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cce46e807b5d3eee423f05d4d44d8ffc/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cce46e807b5d3eee423f05d4d44d8ffc/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tcking/ijkplayer-armv5/0.8.8-full/c0f80b20015918aab209c018a9f3063a49c24982/ijkplayer-armv5-0.8.8-full-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

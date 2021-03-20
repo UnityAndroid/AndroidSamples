@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/ad_item_1"
+        android:elevation="10dp"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/tool_left_icon"
+            android:layout_width="50dp"
+            android:src="@drawable/tool_back_arrow"
+            android:layout_height="match_parent"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:gravity="center|left"
+            android:text="Magic Beat"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="DONE"
+            android:layout_gravity="right"
+            android:id="@+id/tool_right_icon"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/tool_done_bg"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/tool_home"
+            android:layout_width="50dp"
+            android:layout_gravity="right"
+            android:src="@drawable/video_home_icon"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:padding="12dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

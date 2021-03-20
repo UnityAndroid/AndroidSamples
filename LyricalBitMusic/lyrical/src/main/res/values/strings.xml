@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lyrical Bit Music : Photo Video Status Maker</string>
+
+    // giraffe player
+
+    <string name="giraffe_player_url_empty">Please specify the address of the video playback</string>
+    <string name="small_problem">Player encountered a small problem</string>
+    <string name="can_not_play">can not play this video</string>
+    <string name="not_support">player not support this device</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="creation_no_text">No Creations</string>
+    <string name="mp3_no_text">No MP3 Files</string>
+
+    <string name="ad_attribution">Ad</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="sponsored">Sponsored</string>
+
+    <string name="tips_not_wifi">You are currently using the mobile network, the player will continue to consume traffic</string>
+    <string name="tips_not_wifi_confirm">Resume</string>
+    <string name="tips_not_wifi_cancel">Stop play</string>
+    <string name="no_url">No url</string>
+    <string name="replay">Replay</string>
+    <string name="click_to_restart">Click to try again</string>
+    <string name="video_loading_faild">Video loading failed</string>
+</resources>

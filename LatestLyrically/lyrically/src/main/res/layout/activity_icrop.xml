@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lyrically.photovideomaker.particl.ly.musicallybeat.ui.icrop.IcropActivity">
+
+    <include
+        layout="@layout/item_background" />
+
+
+    <include
+        layout="@layout/item_tool_bar"
+        android:id="@+id/tool_bar" />
+
+    <include layout="@layout/item_ad_banner"
+        android:layout_width="match_parent"
+        android:id="@+id/ad_relative"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="50dp" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="@id/tool_bar"
+        app:layout_constraintEnd_toEndOf="@id/tool_bar"
+        app:layout_constraintTop_toBottomOf="@id/tool_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ad_relative"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="0dp">
+
+        <lyrically.photovideomaker.particl.ly.musicallybeat.extras.imagecropper.view.ImageCropView xmlns:imagecrop="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageCropView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            imagecrop:gridLeftRightMargin="20dp"
+            imagecrop:gridTopBottomMargin="20dp"
+            imagecrop:gridInnerColor="#66ffffff"
+            imagecrop:gridInnerStroke="1dp"
+            imagecrop:gridOuterColor="#ffffff"
+            imagecrop:gridOuterStroke="1dp"
+            imagecrop:outsideLayerColor="#80000000"
+            imagecrop:setInnerGridMode="on"
+            imagecrop:setOuterGridMode="on" />
+
+    </FrameLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

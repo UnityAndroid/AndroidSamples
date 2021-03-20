@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0e0826</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="main_color">#FFFFFF</color>
+    <color name="main_color1">#120E0F</color>
+    <color name="main_off_black">#373334</color>
+
+    <color name="Grey_50">#FAFAFA</color>
+    <color name="Grey_100">#F5F5F5</color>
+    <color name="Grey_200">#EEEEEE</color>
+    <color name="Grey_300">#E0E0E0</color>
+    <color name="Grey_400">#BDBDBD</color>
+    <color name="Grey_500">#9E9E9E</color>
+    <color name="Grey_600">#757575</color>
+    <color name="Grey_700">#616161</color>
+    <color name="Grey_800">#424242</color>
+    <color name="Grey_900">#212121</color>
+    <color name="giraffe_dialog_background_color">#130106</color>
+
+    <color name="music_tab_1">#FD2645</color>
+    <color name="music_tab_2">#FD39D1</color>
+    <color name="music_tab_3">#FF5970</color>
+    <color name="music_tab_4">#3D91FE</color>
+    <color name="music_tab_5">#FF6C35</color>
+
+
+    <color name="theme_back_1">#770046</color>
+    <color name="theme_back_2">#29026B</color>
+    <color name="theme_back_3">#CA8404</color>
+    <color name="theme_back_4">#022B32</color>
+
+
+    <color name="rsbColorSeekBarDefault">#c3c3c3</color>
+    <color name="rsbColorThumbPressed">#FFE7E7E7</color>
+    <color name="rsbColorThumbDefault">#FFFFFF</color>
+    <color name="rsbColorThumbBorder">#FFD7D7D7</color>
+
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorLightWhite">#fff9f7f7</color>
+    <color name="colorBG">#CC008577</color>
+    <color name="wabg">#ffe5ddd5</color>
+
+    <color name="background">#0e0826</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="card_bg_color">#ffffff</color>
+    <color name="main_cat_1">#2DB0FF</color>
+    <color name="main_cat_2">#FE48C8</color>
+    <color name="main_cat_3">#FB8737</color>
+    <color name="main_cat_4">#6809E9</color>
+    <color name="main_cat_5">#FE7E5D</color>
+
+    <color name="home_cat_1">#497CF8</color>
+    <color name="home_cat_2">#FE50B0</color>
+    <color name="home_cat_3">#FCAD4E</color>
+    <color name="home_cat_4">#C629EE</color>
+    <color name="home_cat_5">#44B6A8</color>
+    <color name="home_cat_6">#FD8084</color>
+</resources>

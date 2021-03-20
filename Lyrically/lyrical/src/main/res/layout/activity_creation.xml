@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/main_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/creation_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/creation_tool_rl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/creation_back_button"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="MY CREATION"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/fragmentCreations"
+        android:name="lyrically.photovideomaker.particl.ly.musicallybeat.fragment.CreationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/creation_tool_rl" />
+
+</RelativeLayout>

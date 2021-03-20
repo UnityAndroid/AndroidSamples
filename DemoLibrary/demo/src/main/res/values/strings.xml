@@ -1,0 +1,44 @@
+<resources>
+    <integer name="animation_duration">500</integer>
+    <string name="app_name">PicShow</string>
+
+    <string name="description">Media Controls</string>
+
+    <string name="title_home">PicShow</string>
+    <string name="title_creation">My Creations</string>
+    <string name="title_sound">Select Music</string>
+    <string name="title_textedit">Edit Message</string>
+    <string name="title_video">Share Video</string>
+
+    <string name="title_iselect">Select Photos</string>
+    <string name="title_cselect">Crop Images</string>
+    <string name="title_aselect">Swap Images</string>
+
+    <string name="title_music_1">My Music</string>
+    <string name="title_music_2">Online</string>
+
+
+    <string name="title_particle">Particle Store</string>
+    <string name="title_apps">Top Apps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="giraffe_player_url_empty">Please specify the address of the video playback</string>
+    <string name="small_problem">Player encountered a small problem</string>
+    <string name="can_not_play">can not play this video</string>
+    <string name="not_support">player not support this device</string>
+
+
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+
+    <string name="pick_image_intent_chooser_title">Select source</string>
+
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+
+</resources>

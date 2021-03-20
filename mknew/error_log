@@ -1,0 +1,8 @@
+[01-Jan-2021 04:35:56 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/recrrygy/inoventic/pkmaster/save_video.php on line 94
+[04-Jan-2021 06:20:22 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home4/recrrygy/inoventic/pkmaster/connect.php on line 17
+[04-Jan-2021 06:20:22 America/Chicago] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/recrrygy/inoventic/pkmaster/Get_More_App.php on line 7
+[04-Jan-2021 06:20:22 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home4/recrrygy/inoventic/pkmaster/Get_More_App.php on line 8
+[04-Jan-2021 06:20:22 America/Chicago] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/recrrygy/inoventic/pkmaster/Get_More_App.php on line 12
+[04-Jan-2021 06:20:23 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home4/recrrygy/inoventic/pkmaster/connect.php on line 17
+[04-Jan-2021 06:20:23 America/Chicago] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home4/recrrygy/inoventic/pkmaster/SoundCategoryList.php on line 7
+[04-Jan-2021 06:20:23 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home4/recrrygy/inoventic/pkmaster/SoundCategoryList.php on line 9

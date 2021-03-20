@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="iv_volume_brightness_height">50dp</dimen>
+    <dimen name="iv_volume_brightness_width">50dp</dimen>
+    <dimen name="jc_progress_dialog_margin_top">80dp</dimen>
+    <dimen name="jc_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="jc_start_button_w_h_normal">45dp</dimen>
+    <dimen name="jc_volume_dialog_margin_left">24dp</dimen>
+    <dimen name="jz_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="jz_start_button_w_h_normal">45dp</dimen>
+
+
+</resources>

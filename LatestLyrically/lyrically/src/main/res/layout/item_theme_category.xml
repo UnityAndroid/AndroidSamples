@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/cat_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Music"
+        android:textColor="#FF742B"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:id="@+id/linerl"
+        android:layout_width="30dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/cat_text_name"
+        android:layout_centerHorizontal="true"
+        android:background="#FF742B" />
+</RelativeLayout>

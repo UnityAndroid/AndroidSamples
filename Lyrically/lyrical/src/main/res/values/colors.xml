@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0e0826</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="main_color">#0E0623</color>
+
+
+    <color name="Grey_50">#FAFAFA</color>
+    <color name="Grey_100">#F5F5F5</color>
+    <color name="Grey_200">#EEEEEE</color>
+    <color name="Grey_300">#E0E0E0</color>
+    <color name="Grey_400">#BDBDBD</color>
+    <color name="Grey_500">#9E9E9E</color>
+    <color name="Grey_600">#757575</color>
+    <color name="Grey_700">#616161</color>
+    <color name="Grey_800">#424242</color>
+    <color name="Grey_900">#212121</color>
+    <color name="giraffe_dialog_background_color">#130106</color>
+
+
+
+    <color name="theme_back_1">#770046</color>
+    <color name="theme_back_2">#29026B</color>
+    <color name="theme_back_3">#CA8404</color>
+    <color name="theme_back_4">#022B32</color>
+
+
+    <color name="rsbColorSeekBarDefault">#c3c3c3</color>
+    <color name="rsbColorThumbPressed">#FFE7E7E7</color>
+    <color name="rsbColorThumbDefault">#FFFFFF</color>
+    <color name="rsbColorThumbBorder">#FFD7D7D7</color>
+
+
+    <color name="background">#0e0826</color>
+</resources>

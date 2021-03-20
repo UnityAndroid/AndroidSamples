@@ -1,0 +1,64 @@
+apply plugin: 'com.android.library'
+afterEvaluate {
+    generateReleaseBuildConfig.enabled = false
+}
+android {
+
+    signingConfigs {
+        release {
+            storeFile file('E:\\ParthApps\\Unity\\GitHub\\LyricallyBitVideoMaker\\LyricallyAndroid\\lyrical\\lyricalvideomaker.jks')
+            storePassword 'kathiriya@2510'
+            keyAlias = 'lyricalvideomaker'
+            keyPassword 'kathiriya@2510'
+        }
+    }
+
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'], exclude: ['classes.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.github.yalantis:ucrop:2.2.4'
+
+    implementation 'com.google.firebase:firebase-analytics:18.0.2'
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+    implementation 'com.google.android.gms:play-services-ads:19.7.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.2.0'
+
+    implementation 'com.airbnb.android:lottie:3.5.0'
+    implementation 'androidx.browser:browser:1.3.0'
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    compileOnly files('libs/classes.jar')
+    implementation 'com.coolerfall:android-http-download-manager:1.6.3'
+}
+
+apply plugin: 'com.google.gms.google-services'

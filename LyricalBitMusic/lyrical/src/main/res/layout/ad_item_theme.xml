@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ad_rl"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_margin="5dp"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/img_native"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/text_ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Ad Show Here"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+
+    <com.facebook.ads.NativeAdLayout
+        android:id="@+id/native_ad_container"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+
+</androidx.cardview.widget.CardView>
